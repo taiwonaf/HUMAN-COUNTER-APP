@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Outfit:wght@400;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 10px 0px;
+    background-color: blue;
+    padding: 40px 20px;
+    border-radius: 10px;
+    background-image: url("back.jpg");
+    -webkit-box-shadow: 5px 5px 16px 5px #858585; 
+    box-shadow: 5px 5px 16px 5px #858585;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: 500;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 5px;
+    color: white;
+}
+
+#count-btn {
+    background-color: red;
+
+}
+
+#save-btn {
+    background-color: green;
+}
+
+#reset-btn {
+    background-color: rgb(250, 11, 214);
+}
